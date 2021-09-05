@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding: 0px;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.image{
+    justify-content: flex-end;
+}
+.col-md-6,.col-12{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    margin-left:auto;
+}
